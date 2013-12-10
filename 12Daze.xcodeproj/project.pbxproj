@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1CCF241857C3E500CBC94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF231857C3E500CBC94A /* Foundation.framework */; };
+		CD1CCF261857C3E500CBC94A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF251857C3E500CBC94A /* CoreGraphics.framework */; };
+		CD1CCF281857C3E500CBC94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF271857C3E500CBC94A /* UIKit.framework */; };
+		CD1CCF2E1857C3E500CBC94A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCF2C1857C3E500CBC94A /* InfoPlist.strings */; };
+		CD1CCF301857C3E500CBC94A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCF2F1857C3E500CBC94A /* main.m */; };
+		CD1CCF341857C3E500CBC94A /* PHPBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCF331857C3E500CBC94A /* PHPBAppDelegate.m */; };
+		CD1CCF371857C3E500CBC94A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCF351857C3E500CBC94A /* Main.storyboard */; };
+		CD1CCF3A1857C3E500CBC94A /* PHPBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCF391857C3E500CBC94A /* PHPBMasterViewController.m */; };
+		CD1CCF3F1857C3E500CBC94A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCF3E1857C3E500CBC94A /* Images.xcassets */; };
+		CD1CCF461857C3E500CBC94A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF451857C3E500CBC94A /* XCTest.framework */; };
+		CD1CCF471857C3E500CBC94A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF231857C3E500CBC94A /* Foundation.framework */; };
+		CD1CCF481857C3E500CBC94A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF271857C3E500CBC94A /* UIKit.framework */; };
+		CD1CCF501857C3E500CBC94A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCF4E1857C3E500CBC94A /* InfoPlist.strings */; };
+		CD1CCF521857C3E500CBC94A /* _2DazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCF511857C3E500CBC94A /* _2DazeTests.m */; };
+		CD1CCF5E1857C44800CBC94A /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1CCF5B1857C44800CBC94A /* dot.png */; };
+		CD1CCF5F1857C44800CBC94A /* DazeEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1CCF5D1857C44800CBC94A /* DazeEmitterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1CCF491857C3E500CBC94A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1CCF181857C3E500CBC94A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1CCF1F1857C3E500CBC94A;
+			remoteInfo = 12Daze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1CCF201857C3E500CBC94A /* 12Daze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12Daze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1CCF231857C3E500CBC94A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD1CCF251857C3E500CBC94A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD1CCF271857C3E500CBC94A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD1CCF2B1857C3E500CBC94A /* 12Daze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "12Daze-Info.plist"; sourceTree = "<group>"; };
+		CD1CCF2D1857C3E500CBC94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD1CCF2F1857C3E500CBC94A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1CCF311857C3E500CBC94A /* 12Daze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "12Daze-Prefix.pch"; sourceTree = "<group>"; };
+		CD1CCF321857C3E500CBC94A /* PHPBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHPBAppDelegate.h; sourceTree = "<group>"; };
+		CD1CCF331857C3E500CBC94A /* PHPBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHPBAppDelegate.m; sourceTree = "<group>"; };
+		CD1CCF361857C3E500CBC94A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1CCF381857C3E500CBC94A /* PHPBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHPBMasterViewController.h; sourceTree = "<group>"; };
+		CD1CCF391857C3E500CBC94A /* PHPBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHPBMasterViewController.m; sourceTree = "<group>"; };
+		CD1CCF3E1857C3E500CBC94A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD1CCF441857C3E500CBC94A /* 12DazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 12DazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1CCF451857C3E500CBC94A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD1CCF4D1857C3E500CBC94A /* 12DazeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "12DazeTests-Info.plist"; sourceTree = "<group>"; };
+		CD1CCF4F1857C3E500CBC94A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD1CCF511857C3E500CBC94A /* _2DazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2DazeTests.m; sourceTree = "<group>"; };
+		CD1CCF5B1857C44800CBC94A /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		CD1CCF5C1857C44800CBC94A /* DazeEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazeEmitterView.h; sourceTree = "<group>"; };
+		CD1CCF5D1857C44800CBC94A /* DazeEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazeEmitterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1CCF1D1857C3E500CBC94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCF261857C3E500CBC94A /* CoreGraphics.framework in Frameworks */,
+				CD1CCF281857C3E500CBC94A /* UIKit.framework in Frameworks */,
+				CD1CCF241857C3E500CBC94A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1CCF411857C3E500CBC94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCF461857C3E500CBC94A /* XCTest.framework in Frameworks */,
+				CD1CCF481857C3E500CBC94A /* UIKit.framework in Frameworks */,
+				CD1CCF471857C3E500CBC94A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1CCF171857C3E500CBC94A = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF291857C3E500CBC94A /* 12Daze */,
+				CD1CCF4B1857C3E500CBC94A /* 12DazeTests */,
+				CD1CCF221857C3E500CBC94A /* Frameworks */,
+				CD1CCF211857C3E500CBC94A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1CCF211857C3E500CBC94A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF201857C3E500CBC94A /* 12Daze.app */,
+				CD1CCF441857C3E500CBC94A /* 12DazeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1CCF221857C3E500CBC94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF231857C3E500CBC94A /* Foundation.framework */,
+				CD1CCF251857C3E500CBC94A /* CoreGraphics.framework */,
+				CD1CCF271857C3E500CBC94A /* UIKit.framework */,
+				CD1CCF451857C3E500CBC94A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1CCF291857C3E500CBC94A /* 12Daze */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF321857C3E500CBC94A /* PHPBAppDelegate.h */,
+				CD1CCF331857C3E500CBC94A /* PHPBAppDelegate.m */,
+				CD1CCF351857C3E500CBC94A /* Main.storyboard */,
+				CD1CCF381857C3E500CBC94A /* PHPBMasterViewController.h */,
+				CD1CCF391857C3E500CBC94A /* PHPBMasterViewController.m */,
+				CD1CCF5B1857C44800CBC94A /* dot.png */,
+				CD1CCF5C1857C44800CBC94A /* DazeEmitterView.h */,
+				CD1CCF5D1857C44800CBC94A /* DazeEmitterView.m */,
+				CD1CCF3E1857C3E500CBC94A /* Images.xcassets */,
+				CD1CCF2A1857C3E500CBC94A /* Supporting Files */,
+			);
+			path = 12Daze;
+			sourceTree = "<group>";
+		};
+		CD1CCF2A1857C3E500CBC94A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF2B1857C3E500CBC94A /* 12Daze-Info.plist */,
+				CD1CCF2C1857C3E500CBC94A /* InfoPlist.strings */,
+				CD1CCF2F1857C3E500CBC94A /* main.m */,
+				CD1CCF311857C3E500CBC94A /* 12Daze-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1CCF4B1857C3E500CBC94A /* 12DazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF511857C3E500CBC94A /* _2DazeTests.m */,
+				CD1CCF4C1857C3E500CBC94A /* Supporting Files */,
+			);
+			path = 12DazeTests;
+			sourceTree = "<group>";
+		};
+		CD1CCF4C1857C3E500CBC94A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF4D1857C3E500CBC94A /* 12DazeTests-Info.plist */,
+				CD1CCF4E1857C3E500CBC94A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1CCF1F1857C3E500CBC94A /* 12Daze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1CCF551857C3E500CBC94A /* Build configuration list for PBXNativeTarget "12Daze" */;
+			buildPhases = (
+				CD1CCF1C1857C3E500CBC94A /* Sources */,
+				CD1CCF1D1857C3E500CBC94A /* Frameworks */,
+				CD1CCF1E1857C3E500CBC94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 12Daze;
+			productName = 12Daze;
+			productReference = CD1CCF201857C3E500CBC94A /* 12Daze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1CCF431857C3E500CBC94A /* 12DazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1CCF581857C3E500CBC94A /* Build configuration list for PBXNativeTarget "12DazeTests" */;
+			buildPhases = (
+				CD1CCF401857C3E500CBC94A /* Sources */,
+				CD1CCF411857C3E500CBC94A /* Frameworks */,
+				CD1CCF421857C3E500CBC94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1CCF4A1857C3E500CBC94A /* PBXTargetDependency */,
+			);
+			name = 12DazeTests;
+			productName = 12DazeTests;
+			productReference = CD1CCF441857C3E500CBC94A /* 12DazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1CCF181857C3E500CBC94A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PHPB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = fadeover.org;
+				TargetAttributes = {
+					CD1CCF431857C3E500CBC94A = {
+						TestTargetID = CD1CCF1F1857C3E500CBC94A;
+					};
+				};
+			};
+			buildConfigurationList = CD1CCF1B1857C3E500CBC94A /* Build configuration list for PBXProject "12Daze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1CCF171857C3E500CBC94A;
+			productRefGroup = CD1CCF211857C3E500CBC94A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1CCF1F1857C3E500CBC94A /* 12Daze */,
+				CD1CCF431857C3E500CBC94A /* 12DazeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1CCF1E1857C3E500CBC94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCF3F1857C3E500CBC94A /* Images.xcassets in Resources */,
+				CD1CCF5E1857C44800CBC94A /* dot.png in Resources */,
+				CD1CCF2E1857C3E500CBC94A /* InfoPlist.strings in Resources */,
+				CD1CCF371857C3E500CBC94A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1CCF421857C3E500CBC94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCF501857C3E500CBC94A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1CCF1C1857C3E500CBC94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCF3A1857C3E500CBC94A /* PHPBMasterViewController.m in Sources */,
+				CD1CCF341857C3E500CBC94A /* PHPBAppDelegate.m in Sources */,
+				CD1CCF301857C3E500CBC94A /* main.m in Sources */,
+				CD1CCF5F1857C44800CBC94A /* DazeEmitterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1CCF401857C3E500CBC94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1CCF521857C3E500CBC94A /* _2DazeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1CCF4A1857C3E500CBC94A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1CCF1F1857C3E500CBC94A /* 12Daze */;
+			targetProxy = CD1CCF491857C3E500CBC94A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1CCF2C1857C3E500CBC94A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1CCF2D1857C3E500CBC94A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD1CCF351857C3E500CBC94A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1CCF361857C3E500CBC94A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1CCF4E1857C3E500CBC94A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1CCF4F1857C3E500CBC94A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1CCF531857C3E500CBC94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1CCF541857C3E500CBC94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1CCF561857C3E500CBC94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "12Daze/12Daze-Prefix.pch";
+				INFOPLIST_FILE = "12Daze/12Daze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD1CCF571857C3E500CBC94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "12Daze/12Daze-Prefix.pch";
+				INFOPLIST_FILE = "12Daze/12Daze-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD1CCF591857C3E500CBC94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/12Daze.app/12Daze";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "12Daze/12Daze-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "12DazeTests/12DazeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD1CCF5A1857C3E500CBC94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/12Daze.app/12Daze";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "12Daze/12Daze-Prefix.pch";
+				INFOPLIST_FILE = "12DazeTests/12DazeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1CCF1B1857C3E500CBC94A /* Build configuration list for PBXProject "12Daze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CCF531857C3E500CBC94A /* Debug */,
+				CD1CCF541857C3E500CBC94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1CCF551857C3E500CBC94A /* Build configuration list for PBXNativeTarget "12Daze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CCF561857C3E500CBC94A /* Debug */,
+				CD1CCF571857C3E500CBC94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1CCF581857C3E500CBC94A /* Build configuration list for PBXNativeTarget "12DazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CCF591857C3E500CBC94A /* Debug */,
+				CD1CCF5A1857C3E500CBC94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1CCF181857C3E500CBC94A /* Project object */;
+}
