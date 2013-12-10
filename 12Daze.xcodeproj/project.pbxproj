@@ -117,14 +117,12 @@
 		CD1CCF291857C3E500CBC94A /* 12Daze */ = {
 			isa = PBXGroup;
 			children = (
+				CDA033F51857CEBA00E01527 /* Relevent Code */,
 				CD1CCF321857C3E500CBC94A /* PHPBAppDelegate.h */,
 				CD1CCF331857C3E500CBC94A /* PHPBAppDelegate.m */,
 				CD1CCF351857C3E500CBC94A /* Main.storyboard */,
 				CD1CCF381857C3E500CBC94A /* PHPBMasterViewController.h */,
 				CD1CCF391857C3E500CBC94A /* PHPBMasterViewController.m */,
-				CD1CCF5B1857C44800CBC94A /* dot.png */,
-				CD1CCF5C1857C44800CBC94A /* DazeEmitterView.h */,
-				CD1CCF5D1857C44800CBC94A /* DazeEmitterView.m */,
 				CD1CCF3E1857C3E500CBC94A /* Images.xcassets */,
 				CD1CCF2A1857C3E500CBC94A /* Supporting Files */,
 			);
@@ -158,6 +156,16 @@
 				CD1CCF4E1857C3E500CBC94A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDA033F51857CEBA00E01527 /* Relevent Code */ = {
+			isa = PBXGroup;
+			children = (
+				CD1CCF5B1857C44800CBC94A /* dot.png */,
+				CD1CCF5C1857C44800CBC94A /* DazeEmitterView.h */,
+				CD1CCF5D1857C44800CBC94A /* DazeEmitterView.m */,
+			);
+			name = "Relevent Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

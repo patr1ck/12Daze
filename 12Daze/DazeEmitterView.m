@@ -62,7 +62,7 @@
 
 	emitterCell.lifetime = 10.00;
 	emitterCell.lifetimeRange = 0.00;
-	emitterCell.birthRate = 7;
+	emitterCell.birthRate = 6;
 	emitterCell.velocity = 0.00;
 
 	emitterLayer.emitterCells = @[emitterCell];
